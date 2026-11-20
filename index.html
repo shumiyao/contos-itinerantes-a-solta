@@ -1,11 +1,143 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="pt-PT">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lorem Ipsum</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contos Itinerantes à Solta. Histórias participativas para escolas e bibliotecas e um primeiro livro que se recusa a acabar.">
+  <meta name="theme-color" content="#10271f">
+  <link rel="icon" href="imagens/simbolo.png" type="image/png">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Contos Itinerantes à Solta — Histórias que ganham vida</title>
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem officia enim laborum atque dolore. Recusandae quis, tenetur quasi impedit commodi eligendi accusamus distinctio animi reiciendis minima quia voluptatum laboriosam molestias?</p>
+  <a class="skip" href="#conteudo">Saltar para o conteúdo</a>
+  <header class="topo" id="inicio">
+    <div class="limite cabecalho">
+      <a class="marca" href="#inicio" aria-label="Contos Itinerantes à Solta — início">
+        <img src="imagens/logotipo.png" alt="" width="760" height="254">
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="#livro">O livro</a>
+        <a href="#sessoes">As sessões</a>
+        <a href="#equipa">A equipa</a>
+      </nav>
+      <a class="botao contorno topo-cta" href="#contactos">Pedir uma sessão</a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="abertura" aria-labelledby="titulo">
+      <picture class="abertura-imagem">
+        <source media="(max-width: 680px)" srcset="imagens/abertura-movel.jpg">
+        <img src="imagens/abertura.jpg" alt="Paula e Maria lêem um livro iluminado, acompanhadas por um fantoche de burro." width="1920" height="739" fetchpriority="high">
+      </picture>
+      <div class="limite abertura-conteudo">
+        <div class="abertura-texto">
+          <p class="rotulo"><span aria-hidden="true">✦</span> Projecto cultural e editorial</p>
+          <h1 id="titulo">Histórias que <em>ganham vida.</em></h1>
+          <p>Levamos contos a escolas e bibliotecas. Damos voz às personagens e convidamos as crianças a imaginar o que acontece a seguir.</p>
+          <div class="acções">
+            <a class="botao ouro" href="#livro">Descobrir o livro</a>
+            <a class="botao claro" href="#sessoes">Conhecer as sessões</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="livro secçao" id="livro" aria-labelledby="titulo-livro">
+      <div class="limite grelha-livro">
+        <figure class="trailer">
+          <video controls playsinline preload="none" width="1280" height="720" poster="imagens/trailer-poster.jpg" aria-label="Trailer dos Contos Itinerantes à Solta">
+            <source src="videos/trailer.mp4" type="video/mp4">
+            <a href="videos/trailer.mp4">Ver o trailer em MP4</a>
+          </video>
+        </figure>
+        <div class="livro-texto">
+          <p class="rotulo"><span aria-hidden="true">✦</span> O nosso primeiro livro · Já à venda</p>
+          <h2 id="titulo-livro">O Livro que Não <em>Queria Acabar</em></h2>
+          <p class="subtitulo">E se um livro se recusasse a acabar?</p>
+          <p>A Princesa Violeta, o Cavaleiro Ambrósio Ferrugem, o Doutor Baltazar e a Bruxa Bonifácia Maria estão quase a chegar ao fim da aventura. Só que o Livro tem outros planos. Sempre que a história parece terminar, inventa um novo capítulo e arranja mais uma confusão.</p>
+          <p>Na última página, é a vez do leitor imaginar o seu próprio final.</p>
+          <div class="acções">
+            <a class="botao verde" href="mailto:projectocontosasolta@gmail.com?subject=Encomenda%20de%20O%20Livro%20que%20N%C3%A3o%20Queria%20Acabar">Encomendar livro físico</a>
+            <a class="botao contorno" href="https://www.amazon.es/dp/B0HN2ZV592">Versão digital na Amazon</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sessoes secçao" id="sessoes" aria-labelledby="titulo-sessoes">
+      <div class="limite">
+        <div class="sessao-intro">
+          <div>
+            <p class="rotulo"><span aria-hidden="true">✦</span> Para escolas e bibliotecas</p>
+            <h2 id="titulo-sessoes">«O que acham que <em>acontece a seguir?»</em></h2>
+          </div>
+          <div>
+            <p>Partimos de um guião, damos voz às personagens e fazemos pausas para ouvir as crianças. Quando uma ideia do grupo abre caminho, improvisamos a partir dela. No fim, uma actividade breve dá espaço às ideias de cada criança.</p>
+            <p>Trabalhamos com grupos pequenos de idades próximas, idealmente sentados em semicírculo. Combinamos a história, a duração e a actividade com a equipa que nos recebe.</p>
+          </div>
+        </div>
+        <h3 class="gama-titulo">Uma história para cada idade</h3>
+        <div class="propostas">
+          <article>
+            <p class="idade">Pré-escolar</p>
+            <h4>O Esquilo Travesso</h4>
+            <p>Um conto sobre amizade, família adoptiva e o que significa ajudar alguém. No fim, conversamos sobre as escolhas do esquilo.</p>
+          </article>
+          <article>
+            <p class="idade">1.º e 2.º anos</p>
+            <h4>O Monstro que Tinha Medo de Crianças</h4>
+            <p>Uma história para falar sobre o medo. As crianças podem partilhar o que as assusta e imaginar maneiras de lidar com isso.</p>
+          </article>
+          <article>
+            <p class="idade">3.º e 4.º anos</p>
+            <h4>O Livro que Não Queria Acabar</h4>
+            <p>Uma aventura cheia de reviravoltas e situações disparatadas. A proposta final é inventar um desfecho para o Livro… ou deixá-lo em aberto.</p>
+            <a href="#livro">Conhecer o livro</a>
+          </article>
+        </div>
+        <a class="botao ouro" href="#contactos">Pedir uma sessão</a>
+      </div>
+    </section>
+
+    <section class="equipa secçao" id="equipa" aria-labelledby="titulo-equipa">
+      <div class="limite equipa-grelha">
+        <div>
+          <p class="rotulo"><span aria-hidden="true">✦</span> A equipa</p>
+          <h2 id="titulo-equipa">Quem dá vida <em>aos contos</em></h2>
+          <p>Somos três criadoras que juntam livros ilustrados, interpretação e animação para levar as histórias ao encontro das crianças.</p>
+        </div>
+        <dl class="nomes">
+          <div><dt>Patrícia Andrade</dt><dd>Produção editorial, ilustração e paginação</dd></div>
+          <div><dt>Paula Coelho</dt><dd>Interpretação e animação</dd></div>
+          <div><dt>Maria Filipe</dt><dd>Interpretação e animação</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="contactos secçao" id="contactos" aria-labelledby="titulo-contactos">
+      <div class="limite contactos-grelha">
+        <div>
+          <p class="rotulo"><span aria-hidden="true">✦</span> Contactos</p>
+          <h2 id="titulo-contactos">Vamos levar um conto <em>até vós?</em></h2>
+          <p>Para conversarmos sobre uma sessão, indique a escola ou biblioteca, a localidade, as idades das crianças e o número aproximado de participantes.</p>
+          <a class="botao ouro" href="mailto:projectocontosasolta@gmail.com?subject=Pedido%20de%20sess%C3%A3o%20%E2%80%94%20Contos%20Itinerantes%20%C3%A0%20Solta&amp;body=Escola%20ou%20biblioteca%3A%0ALocalidade%3A%0AIdades%20ou%20anos%20de%20escolaridade%3A%0AN%C3%BAmero%20aproximado%20de%20participantes%3A%0ADatas%20poss%C3%ADveis%3A">Escrever à equipa</a>
+        </div>
+        <address>
+          <a href="mailto:projectocontosasolta@gmail.com">projectocontosasolta@gmail.com</a>
+          <a href="https://www.instagram.com/projectocontosasolta/">Instagram @projectocontosasolta</a>
+        </address>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="limite rodape">
+      <a href="#inicio" aria-label="Voltar ao início"><img src="imagens/simbolo.png" alt="" width="48" height="48" loading="lazy"></a>
+      <p>Contos Itinerantes à Solta</p>
+      <a href="#inicio">Voltar ao início</a>
+    </div>
+  </footer>
 </body>
 </html>
